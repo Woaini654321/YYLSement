@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'YYLSement_Example' do
+  pod 'YYLSement', :path => '../'
+
+  target 'YYLSement_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end
