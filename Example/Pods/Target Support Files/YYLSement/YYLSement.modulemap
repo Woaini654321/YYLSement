@@ -1,0 +1,6 @@
+framework module YYLSement {
+  umbrella header "YYLSement-umbrella.h"
+
+  export *
+  module * { export * }
+}
